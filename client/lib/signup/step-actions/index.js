@@ -388,6 +388,10 @@ export function createAccount(
 	},
 	reduxStore
 ) {
+	if ( flowName === 'p2' ) {
+		flowName = 'wp-for-teams';
+	}
+
 	const state = reduxStore.getState();
 
 	const siteVertical = getSiteVertical( state );
