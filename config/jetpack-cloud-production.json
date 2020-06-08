@@ -36,7 +36,7 @@
 	"sections": {
 		"jetpack-cloud": true,
 		"scan": true,
-		"backups": true,
+		"backup": true,
 		"jetpack-cloud-settings": true,
 		"jetpack-cloud-auth": true
 	},
